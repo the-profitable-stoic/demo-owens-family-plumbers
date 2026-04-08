@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Owens Family Plumbers",
+    "phone": "+14085501784",
+    "category": "plumber",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "San Jose's Trusted Plumbing Pros",
+      "heroSubline": "Owens Family Plumbers: Reliable service, expert solutions. Serving San Jose and beyond with pride.",
+      "aboutTitle": "Decades of Dedication to San Jose Plumbing",
+      "aboutText": [
+        "Owens Family Plumbers started with a simple mission: provide honest, reliable plumbing services to our neighbors in San Jose. Three generations later, we're still committed to that same goal. We've seen it all, from burst pipes during winter freezes to aging infrastructure in Willow Glen homes.",
+        "Our approach is straightforward: diagnose the problem accurately, explain the options clearly, and execute the solution efficiently. We value integrity and transparency in every job, big or small. We treat your home as if it were our own.",
+        "We're deeply rooted in the San Jose community. We support local schools and organizations, and we're always ready to lend a hand. When you choose Owens Family Plumbers, you're choosing a neighbor who cares."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait, and neither do we. We're available around the clock to handle your urgent plumbing needs."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team consists of highly trained and experienced plumbers who can tackle any plumbing challenge."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, upfront pricing before we start any work."
+        },
+        {
+          "title": "Satisfaction Guaranteed",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Solve Your Plumbing Problems Today!",
+      "ctaSubline": "Call Owens Family Plumbers for fast, reliable service in San Jose and the surrounding areas."
+    },
+    "services": [
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Fast, effective drain cleaning services for homes and businesses in San Jose.",
+        "description": "Clogged drains are a common nuisance in San Jose, especially with older pipes in neighborhoods like Rose Garden. Owens Family Plumbers offers comprehensive drain cleaning services to keep your pipes flowing freely. We use a variety of methods, including snaking and hydro jetting, to remove stubborn clogs and prevent future backups.\n\nOur experienced technicians can handle any drain cleaning job, from a simple clogged sink to a more complex sewer line blockage. We'll diagnose the problem accurately and recommend the most effective solution. We also offer preventative maintenance services to keep your drains clear and avoid costly repairs down the road.\n\nDon't let a clogged drain disrupt your day. Call Owens Family Plumbers for fast, reliable drain cleaning services in San Jose. We'll get your drains flowing smoothly again in no time.",
+        "process": [
+          "Step 1: Diagnose the clog and identify the cause.",
+          "Step 2: Select the appropriate drain cleaning method (snaking, hydro jetting, etc.).",
+          "Step 3: Clear the clog and restore proper drainage.",
+          "Step 4: Inspect the drain to ensure it's flowing freely."
+        ],
+        "benefits": [
+          "Fast and effective clog removal",
+          "Prevention of future backups",
+          "Improved drainage",
+          "Elimination of unpleasant odors"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "We recommend having your drains cleaned at least once a year to prevent clogs and backups. If you experience frequent clogs, you may need to have them cleaned more often."
+          },
+          {
+            "question": "What is hydro jetting?",
+            "answer": "Hydro jetting is a drain cleaning method that uses high-pressure water to blast away stubborn clogs and debris from your pipes. It's a very effective way to clear even the most difficult blockages."
+          },
+          {
+            "question": "Can I use chemical drain cleaners?",
+            "answer": "We generally advise against using chemical drain cleaners, as they can damage your pipes over time. It's always best to call a professional plumber for drain cleaning services."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair & Installation",
+        "shortDescription": "Expert water heater services in San Jose, including repair, replacement, and installation.",
+        "description": "A functioning water heater is essential for comfortable living in San Jose. Owens Family Plumbers provides comprehensive water heater services, including repair, replacement, and installation. Whether you're dealing with a cold shower, a leaking tank, or simply want to upgrade to a more energy-efficient model, we've got you covered.\n\nWe service all types of water heaters, including traditional tank water heaters, tankless water heaters, and heat pump water heaters. Our experienced technicians can diagnose any water heater problem and recommend the best solution for your needs. We also offer preventative maintenance services to keep your water heater running smoothly and extend its lifespan.\n\nWith the older housing stock in areas like Willow Glen, water heater issues are common. Don't wait until your water heater fails completely. Call Owens Family Plumbers for prompt, reliable water heater service in San Jose.",
+        "process": [
+          "Step 1: Inspect the water heater and diagnose the problem.",
+          "Step 2: Provide a detailed estimate for repair or replacement.",
+          "Step 3: Perform the necessary repairs or install a new water heater.",
+          "Step 4: Test the water heater to ensure it's functioning properly."
+        ],
+        "benefits": [
+          "Hot water on demand",
+          "Energy-efficient operation",
+          "Extended water heater lifespan",
+          "Reduced water heating costs"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "Most water heaters last between 8 and 12 years. However, with proper maintenance, you can extend the lifespan of your water heater."
+          },
+          {
+            "question": "What are the signs that my water heater needs to be replaced?",
+            "answer": "Signs that your water heater needs to be replaced include rusty water, leaks, strange noises, and inconsistent water temperature."
+          },
+          {
+            "question": "What is a tankless water heater?",
+            "answer": "A tankless water heater heats water on demand, rather than storing it in a tank. This can save energy and provide a continuous supply of hot water."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Accurate leak detection services to protect your San Jose home from water damage.",
+        "description": "Hidden leaks can cause significant damage to your San Jose home, leading to mold growth, structural problems, and high water bills. Owens Family Plumbers offers advanced leak detection services to identify and repair leaks before they cause serious problems. We use sophisticated equipment, such as acoustic sensors and thermal imaging cameras, to locate leaks behind walls, under floors, and in other hard-to-reach areas.\n\nOur experienced technicians can detect leaks in water lines, sewer lines, and gas lines. We'll provide you with a detailed report of our findings and recommend the best course of action. We also offer leak repair services to fix the leak quickly and efficiently.\n\nGiven San Jose's location in an earthquake zone, pipe shifting and leaks are a risk. Don't let a hidden leak damage your home. Call Owens Family Plumbers for accurate leak detection services in San Jose.",
+        "process": [
+          "Step 1: Conduct a thorough inspection of your plumbing system.",
+          "Step 2: Use advanced leak detection equipment to locate any hidden leaks.",
+          "Step 3: Provide a detailed report of our findings.",
+          "Step 4: Recommend the best course of action for leak repair."
+        ],
+        "benefits": [
+          "Prevention of water damage",
+          "Reduced water bills",
+          "Early detection of plumbing problems",
+          "Protection of your home's value"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a hidden leak?",
+            "answer": "Signs of a hidden leak include unexplained increases in your water bill, water stains on walls or ceilings, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What is acoustic leak detection?",
+            "answer": "Acoustic leak detection uses sensitive microphones to listen for the sound of water escaping from a pipe. This method is very effective for locating leaks behind walls and under floors."
+          },
+          {
+            "question": "How much does leak detection cost?",
+            "answer": "The cost of leak detection varies depending on the size and complexity of the job. We offer free estimates for our leak detection services."
+          }
+        ]
+      },
+      {
+        "slug": "sewer-line-repair",
+        "name": "Sewer Line Repair & Replacement",
+        "shortDescription": "Expert sewer line services in San Jose, including repair, replacement, and cleaning.",
+        "description": "Sewer line problems can be messy and disruptive. Owens Family Plumbers offers comprehensive sewer line services to keep your sewer system functioning properly. We can handle any sewer line issue, from minor clogs to major breaks.\n\nWe use a variety of methods to repair or replace sewer lines, including traditional trenching and trenchless methods. Trenchless methods, such as pipe bursting and pipe lining, can minimize disruption to your property and save you time and money. Our experienced technicians will assess your situation and recommend the best solution for your needs.\n\nWith the aging infrastructure in some San Jose neighborhoods, sewer line issues are not uncommon. Don't let a sewer line problem ruin your day. Call Owens Family Plumbers for prompt, reliable sewer line service in San Jose.",
+        "process": [
+          "Step 1: Inspect the sewer line and diagnose the problem.",
+          "Step 2: Provide a detailed estimate for repair or replacement.",
+          "Step 3: Perform the necessary repairs or replace the sewer line.",
+          "Step 4: Test the sewer line to ensure it's functioning properly."
+        ],
+        "benefits": [
+          "Proper sewer line function",
+          "Prevention of sewage backups",
+          "Protection of your property",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a sewer line problem?",
+            "answer": "Signs of a sewer line problem include sewage backups, slow drains, gurgling noises in your pipes, and a foul odor in your yard."
+          },
+          {
+            "question": "What is trenchless sewer line repair?",
+            "answer": "Trenchless sewer line repair is a method of repairing or replacing sewer lines without digging up your yard. This can save time, money, and disruption to your property."
+          },
+          {
+            "question": "How much does sewer line repair cost?",
+            "answer": "The cost of sewer line repair varies depending on the extent of the damage and the method used. We offer free estimates for our sewer line services."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional fixture installation services for kitchens and bathrooms in San Jose homes.",
+        "description": "Upgrading your fixtures can enhance the look and functionality of your kitchen and bathroom. Owens Family Plumbers offers professional fixture installation services for homes in San Jose. Whether you're replacing a leaky faucet, installing a new showerhead, or remodeling your entire bathroom, we can handle the job.\n\nWe install all types of fixtures, including faucets, sinks, toilets, showers, and bathtubs. Our experienced technicians will ensure that your new fixtures are installed correctly and that they function properly. We also offer fixture repair services to fix leaky or damaged fixtures.\n\nFrom modern homes in Almaden Valley to older homes in Japantown, we've installed fixtures in all types of San Jose properties. Call Owens Family Plumbers for expert fixture installation services.",
+        "process": [
+          "Step 1: Remove the old fixture.",
+          "Step 2: Prepare the plumbing for the new fixture.",
+          "Step 3: Install the new fixture.",
+          "Step 4: Test the fixture to ensure it's functioning properly."
+        ],
+        "benefits": [
+          "Improved aesthetics",
+          "Increased functionality",
+          "Water conservation",
+          "Enhanced home value"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to install a new faucet?",
+            "answer": "Installing a new faucet typically takes about an hour. However, the exact time may vary depending on the complexity of the job."
+          },
+          {
+            "question": "Do I need to turn off the water before you install a new fixture?",
+            "answer": "Yes, we will need to turn off the water supply to the fixture before we can install a new one."
+          },
+          {
+            "question": "Can you help me choose the right fixtures for my home?",
+            "answer": "Yes, we can provide you with advice and recommendations on choosing the right fixtures for your home."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe and reliable gas line repair, installation, and inspection in San Jose.",
+        "description": "Gas lines require specialized expertise. Owens Family Plumbers provides safe and reliable gas line services in San Jose, including repair, installation, and inspection. Whether you need a new gas line installed for a new appliance, or you suspect a gas leak, our certified technicians can handle the job.\n\nWe adhere to strict safety protocols and use the latest technology to ensure the integrity of your gas lines. We can also help you with gas line inspections to identify potential problems before they become serious.\n\nGiven the age of some homes in San Jose, gas line maintenance is crucial. Don't take chances with gas lines. Call Owens Family Plumbers for safe and reliable gas line services.",
+        "process": [
+          "Step 1: Inspect the gas line for leaks or damage.",
+          "Step 2: Repair or replace the gas line as needed.",
+          "Step 3: Install new gas lines for appliances.",
+          "Step 4: Conduct a thorough gas line inspection."
+        ],
+        "benefits": [
+          "Safe and reliable gas service",
+          "Prevention of gas leaks",
+          "Proper appliance operation",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a gas leak?",
+            "answer": "Signs of a gas leak include a rotten egg smell, a hissing sound near gas lines, and dead vegetation near gas lines."
+          },
+          {
+            "question": "What should I do if I suspect a gas leak?",
+            "answer": "If you suspect a gas leak, evacuate the area immediately and call the gas company or 911."
+          },
+          {
+            "question": "Are your technicians certified to work on gas lines?",
+            "answer": "Yes, all of our technicians are certified to work on gas lines."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "San Jose",
+        "slug": "san-jose-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is proud to offer comprehensive plumbing services to the residents and businesses of San Jose, California. From the heart of Silicon Valley to the vibrant neighborhoods, we are committed to providing reliable, efficient, and affordable plumbing solutions. Our team of experienced and licensed plumbers is equipped to handle any plumbing issue, big or small. \n\nWe understand the unique plumbing needs of San Jose homes and businesses, from older infrastructure in historic districts to modern plumbing systems in newer developments. Owens Family Plumbers is dedicated to ensuring your plumbing systems function flawlessly, providing peace of mind and protecting your property. We're available 24/7 for emergency plumbing repairs, so you can always count on us when you need us most.",
+        "localContext": "San Jose is a large and diverse city with a mix of residential, commercial, and industrial areas, reflecting its status as a major technology hub.",
+        "nearbyAreas": [
+          "Santa Clara",
+          "Sunnyvale",
+          "Milpitas"
+        ]
+      },
+      {
+        "city": "Santa Clara",
+        "slug": "santa-clara-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers extends its expert plumbing services to the city of Santa Clara, CA. Known for its vibrant community and home to Levi's Stadium, Santa Clara relies on dependable plumbing services to keep homes and businesses running smoothly. We offer a full range of plumbing solutions, including drain cleaning, water heater repair and installation, leak detection, and sewer line services.\n\nOur plumbers are familiar with the specific plumbing challenges faced by Santa Clara residents and businesses. From older homes near the university to new constructions, we have the expertise to address any plumbing need effectively. We are committed to providing prompt, professional, and affordable plumbing services to the Santa Clara community.",
+        "localContext": "Santa Clara is a bustling city in the heart of Silicon Valley, known for its tech industry presence and Levi's Stadium.",
+        "nearbyAreas": [
+          "San Jose",
+          "Sunnyvale",
+          "Cupertino"
+        ]
+      },
+      {
+        "city": "Sunnyvale",
+        "slug": "sunnyvale-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is dedicated to serving the residents and businesses of Sunnyvale, California, with top-notch plumbing services. Sunnyvale's mix of residential neighborhoods and thriving tech industry demands reliable and efficient plumbing solutions. We provide a comprehensive range of services, from routine maintenance to emergency repairs.\n\nWe understand the specific plumbing needs of Sunnyvale, including issues related to older infrastructure and the demands of modern commercial properties. Our team is equipped to handle any plumbing challenge, ensuring your systems are running smoothly. With Owens Family Plumbers, you can expect prompt, professional, and affordable service.",
+        "localContext": "Sunnyvale is a major technology hub in Silicon Valley, with a mix of residential areas and large tech company campuses.",
+        "nearbyAreas": [
+          "Santa Clara",
+          "Mountain View",
+          "Cupertino"
+        ]
+      },
+      {
+        "city": "Milpitas",
+        "slug": "milpitas-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers proudly offers plumbing services to the growing community of Milpitas, CA. As a city with a mix of residential and industrial areas, Milpitas requires a plumbing service that can handle diverse needs. We provide a full suite of plumbing solutions, including water heater services, drain cleaning, leak detection, and sewer repairs.\n\nOur experienced plumbers are familiar with the plumbing systems in Milpitas homes and businesses. We are committed to providing reliable, efficient, and affordable services to ensure your plumbing is always functioning at its best. We understand the importance of prompt service and are available for emergency plumbing needs.",
+        "localContext": "Milpitas is a diverse city with a significant industrial presence and a growing residential population.",
+        "nearbyAreas": [
+          "San Jose",
+          "Fremont",
+          "Santa Clara"
+        ]
+      },
+      {
+        "city": "Cupertino",
+        "slug": "cupertino-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is pleased to offer plumbing services to the residents and businesses of Cupertino, California. Known as the home of Apple headquarters, Cupertino is a city that values innovation and quality. We provide a range of plumbing services to meet the needs of this community, from residential repairs to commercial installations.\n\nOur team is dedicated to providing prompt, reliable, and affordable plumbing services. We understand the specific plumbing needs of Cupertino homes and businesses, and we are committed to ensuring your plumbing systems are functioning properly. We offer 24/7 emergency plumbing services so you can always count on us when you need us.",
+        "localContext": "Cupertino is a wealthy city in Silicon Valley, home to Apple headquarters and a highly educated population.",
+        "nearbyAreas": [
+          "Sunnyvale",
+          "San Jose",
+          "Saratoga"
+        ]
+      },
+      {
+        "city": "Mountain View",
+        "slug": "mountain-view-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers extends its expert plumbing services to Mountain View, CA. Home to Google and other tech giants, Mountain View demands reliable and efficient plumbing solutions for its residents and businesses. We offer a comprehensive range of services, including water heater repair and installation, drain cleaning, leak detection, and sewer line services.\n\nOur plumbers are familiar with the specific plumbing challenges faced by Mountain View residents and businesses, from older homes to modern office buildings. We are committed to providing prompt, professional, and affordable plumbing services to the Mountain View community.",
+        "localContext": "Mountain View is a prominent city in Silicon Valley, known for its technology companies and vibrant downtown area.",
+        "nearbyAreas": [
+          "Sunnyvale",
+          "Palo Alto",
+          "Los Altos"
+        ]
+      },
+      {
+        "city": "Palo Alto",
+        "slug": "palo-alto-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is proud to serve the plumbing needs of Palo Alto, California. As a city known for Stanford University and its affluent community, Palo Alto requires high-quality plumbing services. We offer a full range of plumbing solutions, from routine maintenance to complex repairs and installations.\n\nWe understand the specific plumbing needs of Palo Alto homes and businesses, including older properties and high-end residences. Our team is equipped to handle any plumbing challenge, ensuring your systems are running smoothly. With Owens Family Plumbers, you can expect prompt, professional, and reliable service.",
+        "localContext": "Palo Alto is a wealthy city on the San Francisco Peninsula, known for Stanford University and its high-tech industry.",
+        "nearbyAreas": [
+          "Mountain View",
+          "Menlo Park",
+          "Los Altos Hills"
+        ]
+      },
+      {
+        "city": "Fremont",
+        "slug": "fremont-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is dedicated to providing top-notch plumbing services to the residents and businesses of Fremont, California. As a diverse and growing city in the East Bay, Fremont has a wide range of plumbing needs. We offer a comprehensive suite of services, including water heater repair and replacement, drain cleaning, leak detection, and sewer line services.\n\nOur experienced plumbers are familiar with the plumbing systems in Fremont homes and businesses. We are committed to providing reliable, efficient, and affordable service to ensure your plumbing is always functioning at its best. We understand the importance of prompt service and are available for emergency plumbing needs.",
+        "localContext": "Fremont is a large and diverse city in the East Bay, with a mix of residential, commercial, and industrial areas.",
+        "nearbyAreas": [
+          "Milpitas",
+          "Union City",
+          "Newark"
+        ]
+      },
+      {
+        "city": "Los Gatos",
+        "slug": "los-gatos-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers is pleased to offer plumbing services to the community of Los Gatos, CA. Known for its charming downtown and beautiful homes, Los Gatos relies on dependable plumbing services to maintain its high quality of life. We provide a full range of plumbing solutions, including water heater services, drain cleaning, leak detection, and sewer repairs.\n\nOur experienced plumbers are familiar with the plumbing systems in Los Gatos homes and businesses. We are committed to providing reliable, efficient, and affordable services to ensure your plumbing is always functioning at its best. We understand the importance of prompt service and are available for emergency plumbing needs.",
+        "localContext": "Los Gatos is an affluent town located in the foothills of the Santa Cruz Mountains, known for its charming downtown and scenic beauty.",
+        "nearbyAreas": [
+          "Saratoga",
+          "Campbell",
+          "San Jose"
+        ]
+      },
+      {
+        "city": "Campbell",
+        "slug": "campbell-ca",
+        "state": "CA",
+        "content": "Owens Family Plumbers proudly serves the residents and businesses of Campbell, CA, with expert plumbing solutions. As a community with a mix of residential and commercial properties, Campbell deserves a plumbing service that can handle diverse needs. We offer a comprehensive suite of plumbing services, including water heater repair and installation, drain cleaning, leak detection, and sewer line services.\n\nOur team of experienced plumbers is familiar with the unique plumbing systems found in Campbell homes and businesses. We are dedicated to providing prompt, professional, and affordable service to ensure your plumbing systems function flawlessly.",
+        "localContext": "Campbell is a vibrant city in the heart of Silicon Valley, known for its lively downtown and community events.",
+        "nearbyAreas": [
+          "San Jose",
+          "Los Gatos",
+          "Santa Clara"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Our water heater died on a Saturday morning. Owens Family Plumbers was at our house in Willow Glen within an hour! They quickly assessed the situation and gave us a fair price for a new water heater. The installation was smooth and professional. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "I had a clogged kitchen sink that I couldn't clear myself. Owens Family Plumbers came out the same day and snaked the drain. The plumber was friendly and efficient. My only complaint is that the price was a little higher than I expected, but the service was worth it.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Jennifer L.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "We suspected we had a leak somewhere because our water bill was unusually high. Owens Family Plumbers used some kind of fancy equipment to find a small leak in our backyard. They fixed it quickly and saved us a lot of money. Thank you!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert B.",
+        "rating": 5,
+        "service": "Toilet Repair",
+        "text": "Our toilet was constantly running, and we were wasting water. Owens Family Plumbers came out and fixed it in no time. The plumber was very knowledgeable and gave us some tips on how to prevent future problems.",
+        "date": "2024-12-20"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Sewer Line Cleaning",
+        "text": "We had a sewer backup in our basement. Owens Family Plumbers was able to clear the line quickly and efficiently. They were very professional and cleaned up the mess afterwards. I would definitely use them again.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Michael P.",
+        "rating": 5,
+        "service": "Gas Line Repair",
+        "text": "I smelled gas near my stove and called Owens Family Plumbers immediately. They arrived quickly and found a small leak in the gas line. They repaired it safely and efficiently. I'm so grateful for their prompt and professional service.",
+        "date": "2024-10-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Owens Family Plumbers | San Jose, CA",
+        "description": "Reliable plumbing services in San Jose. Expert repairs, water heaters, drain cleaning, and more. Call Owens Family Plumbers today!"
+      },
+      "about": {
+        "title": "About Owens Family Plumbers",
+        "description": "Learn about Owens Family Plumbers' history, values, and commitment to serving the San Jose community."
+      },
+      "services": {
+        "title": "Plumbing Services | San Jose, CA",
+        "description": "Comprehensive plumbing services in San Jose. Water heater repair, drain cleaning, leak detection, and more. Get a free estimate!"
+      },
+      "contact": {
+        "title": "Contact Owens Family Plumbers",
+        "description": "Contact Owens Family Plumbers for fast and reliable plumbing service in San Jose. Call or email us today!"
+      },
+      "reviews": {
+        "title": "Owens Family Plumbers Reviews",
+        "description": "Read reviews from satisfied customers in San Jose. See why Owens Family Plumbers is the trusted choice for plumbing services."
+      },
+      "service-areas": {
+        "title": "Plumbing Service Areas",
+        "description": "Owens Family Plumbers provides expert plumbing services across the San Jose area. Check our service locations."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "sewer-line-repair": "/images/service-sewer-line-repair.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sewer-line-repair": {
+        "src": "/images/service-sewer-line-repair.webp",
+        "srcset": "/images/service-sewer-line-repair-400w.webp 400w, /images/service-sewer-line-repair-800w.webp 800w, /images/service-sewer-line-repair-1200w.webp 1200w, /images/service-sewer-line-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
